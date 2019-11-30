@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="ValidatePageTitle"/>
+          <include name="CloseBrowswe"/>
+          <include name="ValidatePageURL"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="CloseBrowswe"/>
+          <include name="setup"/>
+          <include name="ValidatePageURL"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      <class name="com.amazon.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="ValidatePageTitle"/>
+          <include name="ValidatePageURL"/>
+          <include name="CloseBrowswe"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CheckoutPageTest -->
+      <class name="com.amazon.qa.testcases.ProductPageTest">
+        <methods>
+          <include name="ValidatePageTitle"/>
+          <include name="CloseBrowswe"/>
+          <include name="setup"/>
+          <include name="ValidatePageURL"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.ProductPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

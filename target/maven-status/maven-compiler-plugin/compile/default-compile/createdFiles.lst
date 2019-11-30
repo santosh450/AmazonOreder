@@ -1,0 +1,8 @@
+com\amazon\qa\pages\ProductPage.class
+com\amazon\qa\util\WriteXML.class
+com\amazon\qa\util\TestUtil.class
+com\amazon\qa\pages\CheckoutPage.class
+com\amazon\qa\pages\HomePage.class
+com\amazon\qa\pages\LoginPage.class
+com\amazon\qa\util\ReadingXML.class
+com\amazon\qa\base\TestBase.class
