@@ -5,10 +5,10 @@ Placing an order in Amazon
 AmazonOreder/src/main/java/com/amazon/qa/util/Amazon_req_steps.jpg
 
 2. This project contains
-    Java + Selenium Webdriver
-    Maven
-    TestNG
-    Page Object Model (POM)
-    Object Repository
+    i. Java + Selenium Webdriver
+    ii. Maven
+    iii. TestNG
+    iv. Page Object Model (POM)
+    v. Object Repository
     
 
